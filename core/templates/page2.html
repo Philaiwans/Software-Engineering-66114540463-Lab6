@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="card shadow text-center p-5">
+  <h1 class="mb-3">หน้าถัดไป</h1>
+  <p class="text-muted">คุณสามารถคลิกเปลี่ยนหน้าได้เรียบร้อย 🎉</p>
+  <a href="{% url 'home' %}" class="btn btn-outline-secondary">
+    ← กลับหน้าแรก
+  </a>
+</div>
+{% endblock %}
